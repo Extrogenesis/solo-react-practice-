@@ -1,0 +1,6 @@
+.header-container{
+    width: 86%;
+    display: grid;
+    grid-template: 47px 47px / repeat(5,1fr);
+    
+}

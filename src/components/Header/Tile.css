@@ -1,0 +1,9 @@
+.Tile {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
