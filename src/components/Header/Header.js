@@ -6,12 +6,14 @@ import Tile from './Tile'
 
 function Header (){
     return (
-        <div className="header-container">
-            <Frank />
-            <Tile page='exhibitions'/>
-            <Tile page='work'/>
-            <Tile page='about'/>
-            <Tile page='contact'/>
+        <div className='header-wrapper'>
+            <div className="header-container">
+                <Frank />
+                <Tile page='exhibitions'/>
+                <Tile page='work'/>
+                <Tile page='about'/>
+                <Tile page='contact'/>
+            </div>
         </div>
      )
 }
