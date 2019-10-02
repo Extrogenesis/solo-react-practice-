@@ -1,0 +1,16 @@
+{
+"data" : {
+    "title" : "Big Bird",
+        "date" : 1964,
+        "medium" : "Oil on canvas",
+        "dimension" : "H 179 x W 200 cm",
+        "description " : "lorem ipsum ...",
+        "location" : "On display at Tate Britain"
+    },
+    "title" : "Cover Girl",
+        "date" : 1966,
+        "medium" : "Acrylic on canvas",
+        "dimension" : "H 149.6 x W 101.4 cm",
+        "description " : "lorem ipsum ...",
+        "location" : "On display at Tate Britain"
+}
