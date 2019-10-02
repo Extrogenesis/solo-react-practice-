@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: flex-end;
     font-size: 100px;
-}
+ }
 
 .arrow-right {
     justify-content: flex-start;
@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .image-desc {
