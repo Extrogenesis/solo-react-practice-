@@ -9,7 +9,7 @@
     color: #D1CBC6;
 }
 
-.footer-wrapper {
+.footer-container {
     width: 86%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -17,14 +17,14 @@
     border-right: 2px solid #979797;
 }
 
-.footer-wrapper > div {
+.footer-container > div {
     padding-top: 25px;
 }
 
-.footer-wrapper > div > p {
+.footer-container > div > p {
     padding-left: 12px;
 }
 
-.footer-wrapper > div > p + p{
+.footer-container > div > p + p {
     margin: 25px 0;
 }

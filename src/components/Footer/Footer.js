@@ -6,7 +6,7 @@ import './Footer.css'
 function Footer(){
     return(
         <div className='Footer'>
-            <div className='footer-wrapper'>
+            <div className='footer-container'>
                 <div className='fb-obe'>
                     <p>Frank Bowling OBE</p>
                     <p>Frank Bowling © 2019</p>
