@@ -1,0 +1,38 @@
+.work-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-half{
+    display: grid;
+    grid-template: 1fr / 7% repeat(5, 1fr) 7%;
+    height: 671px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 100px;
+}
+
+.arrow-right {
+    justify-content: flex-start;
+}
+
+.image-container {
+    grid-column: 2 / 5;
+    border-left: 2px solid #979797;
+    border-right: 2px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-desc {
+    grid-column: 5 / 7;
+}
+
+.image-container img {
+    height: 628px;
+}
