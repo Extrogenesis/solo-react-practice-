@@ -1,0 +1,11 @@
+.Footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    width: 86%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr)
+}
