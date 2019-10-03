@@ -4,6 +4,7 @@ import { faAngleRight, faAngleLeft } from '@fortawesome/free-solid-svg-icons'
 
 import Header from '../../components/Header/Header'
 import Footer from "../../components/Footer/Footer"
+import Silder from '../../components/Carousel/Carousel'
 import './work.css'
 
 import MB from './img/moby-dick-min.jpg'
@@ -20,7 +21,9 @@ function Work(){
             <div className='work-container'>
                 <div className="top-half">
                     <div className='arrow arrow-left'> <FontAwesomeIcon icon={faAngleLeft} /></div>
-                    <div className='image-container'> <img src={DJ}></img> </div>
+                    <div className='image-container'> 
+                        <Silder image={MB}/>
+                    </div>
                     <div className='image-desc'>  </div>
                     <div className='arrow arrow-right'> <FontAwesomeIcon icon={faAngleRight} /></div>
                 </div>        
